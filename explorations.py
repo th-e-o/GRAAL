@@ -22,13 +22,9 @@ load_dotenv(override=True)
 from src.config import neo4j_config
 from src.neo4j_graph.graph import Graph
 
-<<<<<<< HEAD
-# %% Config
-=======
 logger = logging.getLogger(__name__)
 
 # Configuration
->>>>>>> c51812c (Fix: embedding Feat: local Neo4j)
 N_CODES = 20
 K_NN = 1
 
@@ -599,5 +595,3 @@ fig_comparison.write_html("comparison_all_methods.html")
 print(f"✓ Saved comparison visualization to comparison_all_methods.html")
 
 print("\n✅ Exploration completed successfully!")
-
-# %%
